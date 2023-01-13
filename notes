@@ -1,0 +1,51 @@
+Chat App MVP
+
+*packages needed*
+-firebase, react router dom
+
+chat app
+-store users, messages, prof pics in firebase
+
+users
+-the user can sign in through google or email and password***
+
+messages
+-the user can get, create, and delete messages
+
+profile pic
+-the user can set and change profile pic
+
+**************************************************** 
+
+*context files*
+User Provider
+-store firebase/google auth for users in this file
+-reset email/password
+
+Messages Provider
+-store firebase message logic in this file
+
+Settings Provider
+-store firebase prof pics, etc logic in this file
+
+*What needs to be worked on FIRST?*
+1. Setting up firebase, firebase config file***
+2. User Authentication(store in user prov file)***
+3. Create Registration Page/make it functional***
+4. If sign in is successful redirect to home page***
+
+//another idea for future: you can click on the user profile pic to display info/facts about the user (this could be a modal)
+
+// first thing to do: design how I want the page to look then I can visualize where I want things to go***
+
+5. Home Page: Look up home pages for chat apps/target audience: one on one chat with members in the application***
+-Allow user to choose another user to send messages to
+-Use firebase to send messages in real time and relate messages to user???
+
+-Display all users to the page, make user clickable***
+-Logged in user will choose another user, create message to send to user
+
+get messages, have page dynamically view messages
+
+-delete messages and display timestamp
+-implement profile pic changers
